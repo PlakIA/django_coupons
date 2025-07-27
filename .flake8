@@ -1,0 +1,7 @@
+[flake8]
+
+exclude = .git,__pycache__,.env,*/migrations/,*.html,manage.py,.venv
+max-line-length = 120
+application-import-names = django_coupons
+import-order-style = google
+inline-quotes = double
